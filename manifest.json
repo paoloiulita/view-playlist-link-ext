@@ -5,7 +5,7 @@
 	"version": "1.0",
 	"content_scripts": [
 		{
-			"matches": ["https://www.youtube.com/channel/*/playlists"],
+			"matches": ["https://www.youtube.com/channel/*/playlists", "https://www.youtube.com/user/*/playlists"],
 			"js": ["addViewPlaylistLink.js"],
 			"all_frames": true
 		}
